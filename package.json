@@ -1,6 +1,6 @@
 {
   "name": "bywood-dsh-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "芭梧 BYWOOD 视觉系统：按 BYWOOD 设计系统 v5.8.2 重绘 DeepSeek Harness 的整套界面与品牌标识",
   "type": "module",
   "exports": {
