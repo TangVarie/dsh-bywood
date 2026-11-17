@@ -8,5 +8,36 @@
     "en": "The BYWOOD visual system as an installable DeepSeek Harness plugin. Add this index once; new versions show up as updates in the Plugins page.",
     "zh": "把芭梧 BYWOOD 视觉系统做成可安装的 DeepSeek Harness 插件。索引地址只需添加一次，之后有新版本会在插件页出现「更新」。"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "bywood-dsh-theme",
+      "title": {
+        "en": "BYWOOD visual system",
+        "zh": "芭梧 BYWOOD 视觉系统"
+      },
+      "description": {
+        "en": "Re-skins the Web GUI to the BYWOOD design system v5.8.2 (colour, type, square corners, hairline depth) and replaces the product mark, wordmark, title and favicon with BYWOOD's.",
+        "zh": "按 BYWOOD 设计系统 v5.8.2 重绘整个 Web 界面（色板、字体、直角、发丝线），并把产品标志、词标、标题与 favicon 换成芭梧。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkJZV09PRCI+CiAgPHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGZpbGw9IiMxRTU3NTQiLz4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MS42OCAxOTkuMjkpIHNjYWxlKDEuMjYwMzApIj4KICAgIDxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik02Ny43MjcgMzQuMTM1QzMyLjk4NSA0NS4yNTUgMCA0NS4wMDEgMCA0NS4wMDFMMCA0NS4wMDFMMCA1MS43NUMwIDUxLjc1IDMyLjg1NSA1Mi4wNDggNjcuNTAyIDQwLjk0OUw2Ny41MDIgNDAuOTQ5QzEwMy4wODMgMjkuNTUzIDE0MC41NTIgNi43NDkgMTQ2LjI1MSA2Ljc0OUwxNDYuMjUxIDYuNzQ5QzE1MS45NTYgNi43NDkgMTg5LjQ3MiAyOS41NjcgMjI1LjA3NiA0MC45NzVMMjI1LjA3NiA0MC45NzVDMjU5LjY5NCA1Mi4wNjYgMjkyLjUwMiA1MS43NSAyOTIuNTAyIDUxLjc1TDI5Mi41MDIgNTEuNzVMMjkyLjUwMiA0NS4wMDFDMjkyLjUwMiA0NS4wMDEgMjU5LjgyNiA0NS4zNiAyMjUuMzA5IDM0LjI5MUwyMjUuMzA5IDM0LjI5MUMxODkuNjY1IDIyLjg2NSAxNTIuMDU4IDAgMTQ2LjQ0IDBMMTQ2LjQ0IDBDMTQwLjY1NSAwIDEwMy4yNzMgMjIuNzU2IDY3LjcyNyAzNC4xMzVNNjcuMzEzIDU2Ljc4OUMzMi4xODIgNTkuNzgyIDAgNTguNTAyIDAgNTguNTAyTDAgNTguNTAyTDAgNjUuMjUxQzAgNjUuMjUxIDMyLjE3OCA2Ni41MzEgNjcuMjc3IDYzLjUzOEw2Ny4yNzcgNjMuNTM4Qzk3LjgwNyA2MC45MzQgMTMwLjU1MyA1NCAxNDYuMjUxIDU0TDE0Ni4yNTEgNTRDMTYxLjk0MiA1NCAxOTQuNjQ4IDYwLjkzMSAyMjUuMTU2IDYzLjUzNUwyMjUuMTU2IDYzLjUzNUMyNjAuMjg0IDY2LjUyOCAyOTIuNTAyIDY1LjI1MSAyOTIuNTAyIDY1LjI1MUwyOTIuNTAyIDY1LjI1MUwyOTIuNTAyIDU4LjUwMkMyOTIuNTAyIDU4LjUwMiAyNjAuMjczIDU5Ljc3OSAyMjUuMTcxIDU2Ljc4MkwyMjUuMTcxIDU2Ljc4MkMxOTQuNjg3IDU0LjE4MiAxNjIuMDM2IDQ3LjI1MSAxNDYuNDQgNDcuMjUxTDE0Ni40NCA0Ny4yNTFDMTMwLjY1IDQ3LjI1MSA5Ny44NjkgNTQuMTg1IDY3LjMxMyA1Ni43ODlNMCA3MkwwIDc4Ljc0OUMwIDc4Ljc0OSAxMzUgNzQuMjUxIDE0Ni4yNTEgNzQuMjUxTDE0Ni4yNTEgNzQuMjUxQzE1Ny41MDIgNzQuMjUxIDI5Mi41MDIgNzguNzQ5IDI5Mi41MDIgNzguNzQ5TDI5Mi41MDIgNzguNzQ5TDI5Mi41MDIgNzJDMjkyLjUwMiA3MiAxNTcuNTAyIDY3LjUwMiAxNDYuNDQgNjcuNTAyTDE0Ni40NCA2Ny41MDJDMTM1IDY3LjUwMiAwIDcyIDAgNzJNMCA5MEwyOTIuNTAyIDkwTDI5Mi41MDIgODMuMjUxTDAgODMuMjUxWiIvPgogIDwvZz4KPC9zdmc+Cg==",
+      "author": "BYWOOD",
+      "repository": {
+        "url": "https://github.com/TangVarie/dsh-bywood"
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794897027,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/TangVarie/dsh-bywood",
+            "commit": "1759ce9e50399beccf159c3e6ff2bdcfc12ef7b1"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
 }

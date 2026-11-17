@@ -19,10 +19,22 @@ if (!/^[0-9a-f]{40}$/.test(commit ?? '')) {
   console.error('用法：node release.mjs <小写的 40 位提交号>')
   process.exit(2)
 }
+
+// 沙箱里 Node 不能开管道子进程时，可以用 PowerShell 先取出清单和时间再传进来；
+// 正常在本机发版不需要这两个参数。
+const flag = name => {
+  const index = process.argv.indexOf(name)
+  return index === -1 ? undefined : process.argv[index + 1]
+}
+const manifestFile = flag('--manifest')
+const timestampArg = flag('--time')
+
 const git = (...args) => execFileSync('git', args, { encoding: 'utf8' }).trim()
 let manifest
 try {
-  manifest = JSON.parse(git('show', `${commit}:package.json`))
+  manifest = manifestFile === undefined
+    ? JSON.parse(git('show', `${commit}:package.json`))
+    : JSON.parse(readFileSync(manifestFile, 'utf8'))
 } catch {
   console.error(`在提交 ${commit} 里读不到 package.json。先 git fetch，确认提交号对不对。`)
   process.exit(1)
@@ -48,7 +60,9 @@ try {
     commit,
     repository: REPOSITORY,
     engines: manifest.engines?.dsh,
-    publishTimestamp: Number(git('show', '-s', '--format=%ct', commit)),
+    publishTimestamp: timestampArg === undefined
+      ? Number(git('show', '-s', '--format=%ct', commit))
+      : Number(timestampArg),
   })
   validateIndex(index)
 } catch (error) {
