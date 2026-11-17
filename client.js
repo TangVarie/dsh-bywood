@@ -619,7 +619,7 @@ window.__ModuleLoader__.load({
     const PLUGIN_ID = 'bywood-dsh-theme'
 
     /** Package version, injected by scripts/build.mjs from package.json. */
-    const VERSION = '1.0.0'
+    const VERSION = '1.0.1'
 
     /** Product title the shipped shell hardcodes; BYWOOD's replaces it. */
     const SHIPPED_TITLE = 'DeepSeek Harness'

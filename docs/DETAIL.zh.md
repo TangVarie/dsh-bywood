@@ -25,6 +25,8 @@ https://raw.githubusercontent.com/TangVarie/dsh-bywood/main/index.json
 
 在「插件 → 发现 → 添加索引源」里添加一次，然后安装主题。以后有新版本，同一页会出现「更新」；插件本身不检查版本、也不下载代码。
 
+页面根元素上的 `data-bywood-version` 会写成当前加载的版本号，排查「更新后还是旧样式」时先看它。
+
 ## 怎么用
 
 1. 安装后即时生效（客户端 bundle 由页面惰性加载）。

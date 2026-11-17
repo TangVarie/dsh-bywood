@@ -27,6 +27,8 @@ https://raw.githubusercontent.com/TangVarie/dsh-bywood/main/index.json
 
 Add that address once under Plugins → Discover → Add index source, then install the theme. Later versions show up on the same page as an update; the plugin itself never checks for updates or downloads code.
 
+The page root carries `data-bywood-version` with the version that is actually loaded, so a stale page after an update is easy to spot.
+
 ## Usage
 
 1. It applies as soon as the plugin is installed — the client bundle is loaded lazily by the page.
