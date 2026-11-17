@@ -15,7 +15,7 @@ title and icon with BYWOOD's.
 | Typography | Transcript body is editorial: heading tiers, 1.7 leading paragraphs, hanging lists, quote blocks with a primary rule, tables with horizontal hairlines only (no vertical lines, no fills), code blocks and diffs, thin scrollbars. |
 | Components | Settings dialog, tool-call cards, reasoning blocks and step groups, turn process and change cards, code-block banners, menus and dropdowns, right dock, and the running indicator are all brought onto the same tokens and rules; the pixel-whale animation is removed. |
 | Copy | The composer placeholder becomes 「说说这一轮要推进什么, / 调用指令, @ 文件或对话」; functional labels stay as shipped. |
-| Brand | The sidebar and blank-session hero show the BYWOOD square mark; the brand name reads 芭梧 BYWOOD; the document title, favicon and apple-touch-icon follow. The desktop shortcut, tray and window icons are the rounded BYWOOD icon (22% radius, four-band mark). |
+| Brand | The sidebar and blank-session hero show the BYWOOD square mark; the brand name reads 芭梧 BYWOOD; the document title, favicon and apple-touch-icon follow. The tray icon, the taskbar hover-preview icon and the tray label/menu live in the Electron main process, out of a web plugin's reach — `shell/` in this repository carries an optional one-shot desktop patch for them. |
 
 ## Installation and updates
 
@@ -40,4 +40,4 @@ The page root carries `data-bywood-version` with the version that is actually lo
 - BYWOOD has no chat/composer component (that is its B-tier experiment area). This plugin derives them from the same tokens: the user message is a soft rounded bubble on `--dsw-specific-bubble` (BYWOOD `tint-primary`), the composer a surface with a hairline — no new colours.
 - BYWOOD has no syntax-highlighting palette; the syntax theme still owns code colour, and this plugin only sets the surfaces beneath it.
 - The brand teal `#7ED1CD` is used as a field only (`--color-field-brand`), never as text, border or icon foreground, per the design system.
-- Desktop icons are replaced by swapping resource files in the installation directory (tray/window icon) and the desktop shortcut. `app.asar` is **not** modified — repacking it once caused a blank-window startup failure. The in-app welcome screen and update dialogs are untouched.
+- The desktop shell (tray icon and label, taskbar hover-preview icon, quit-dialog title) is out of scope: it lives in the Electron main process, unreachable from both the client half and the Host half. `shell/` in this repository holds an optional per-machine patch (it rewrites `lib/main.js` plus two resource icons, keeping the archive's byte count and offsets so it can be applied in place, and it rolls back with one command). **Re-run it after every DeepSeek Harness upgrade.** The plugin itself never modifies `app.asar`.

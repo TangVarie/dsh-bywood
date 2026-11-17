@@ -17,7 +17,8 @@
     "cordis.patch.yml",
     "icon.svg",
     "docs",
-    "locale"
+    "locale",
+    "shell"
   ],
   "license": "UNLICENSED",
   "engines": {
@@ -34,6 +35,6 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node test/index.test.mjs"
+    "test": "node test/index.test.mjs && node test/shell-patch.test.mjs"
   }
 }
