@@ -1,0 +1,39 @@
+{
+  "name": "bywood-dsh-theme",
+  "version": "1.0.0",
+  "description": "芭梧 BYWOOD 视觉系统：按 BYWOOD 设计系统 v5.8.2 重绘 DeepSeek Harness 的整套界面与品牌标识",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./index.js"
+    },
+    "./client": "./client.js",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "docs",
+    "locale"
+  ],
+  "license": "UNLICENSED",
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node test/index.test.mjs"
+  }
+}

@@ -1,0 +1,5 @@
+# BYWOOD bundle 的层入口：一行空插件让这个 bundle 成为 profile 的一层，
+# 浏览器半（client.js：主题 token + 皮肤样式表 + 品牌位）随包被发现。
+- insert:
+    - id: bywood-theme
+      name: 'bywood-dsh-theme'

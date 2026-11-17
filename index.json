@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "title": {
+    "en": "BYWOOD theme for DeepSeek Harness",
+    "zh": "芭梧 BYWOOD · DeepSeek Harness 主题"
+  },
+  "description": {
+    "en": "The BYWOOD visual system as an installable DeepSeek Harness plugin. Add this index once; new versions show up as updates in the Plugins page.",
+    "zh": "把芭梧 BYWOOD 视觉系统做成可安装的 DeepSeek Harness 插件。索引地址只需添加一次，之后有新版本会在插件页出现「更新」。"
+  },
+  "plugins": []
+}

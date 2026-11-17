@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>芭梧 BYWOOD · DeepSeek Harness 换肤样张</title>
+<style>
+:root {
+  --bw-primary: #1E5754;
+  --bw-primary-dark: #16413F;
+  --bw-on-primary: #FFFFFF;
+  --bw-accent: #B8502F;
+  --bw-money: #B8502F;
+  --bw-block-primary: #1E5754;
+  --bw-block-accent: #B8502F;
+  --bw-tint-primary: #E3EFEF;
+  --bw-tint-accent: #F8EAE2;
+  --bw-field-brand: #7ED1CD;
+  --bw-success: #00B578;
+  --bw-warning: #FF8F1F;
+  --bw-danger: #D92B3C;
+  --bw-danger-dark: #B02330;
+  --bw-on-danger: #FFFFFF;
+  --bw-success-deep: #006B4A;
+  --bw-warning-deep: #995400;
+  --bw-danger-deep: #B02330;
+  --bw-bg: #F3F4F6;
+  --bw-bg-secondary: #EAECEF;
+  --bw-surface: #FFFFFF;
+  --bw-fill: rgba(0,0,0,0.045);
+  --bw-text-dark: rgba(0,0,0,0.90);
+  --bw-text: rgba(0,0,0,0.65);
+  --bw-text-light: rgba(0,0,0,0.55);
+  --bw-text-faint: rgba(0,0,0,0.30);
+  --bw-border: rgba(0,0,0,0.08);
+  --bw-border-strong: #E5E6EB;
+}
+@media (prefers-color-scheme: dark) {
+:root {
+  --bw-primary: #6AC1BD;
+  --bw-primary-dark: #48A8A3;
+  --bw-on-primary: #0F1318;
+  --bw-accent: #D97E55;
+  --bw-money: #D97E55;
+  --bw-block-primary: #1E5754;
+  --bw-block-accent: #A84528;
+  --bw-tint-primary: #163B39;
+  --bw-tint-accent: #3D291F;
+  --bw-field-brand: #7ED1CD;
+  --bw-success: #21B183;
+  --bw-warning: #FFA24D;
+  --bw-danger: #E8575C;
+  --bw-danger-dark: #C64449;
+  --bw-on-danger: #0F1318;
+  --bw-success-deep: #7FE0BD;
+  --bw-warning-deep: #FFC38A;
+  --bw-danger-deep: #FF9A9E;
+  --bw-bg: #0F1318;
+  --bw-bg-secondary: #151A20;
+  --bw-surface: #1B222B;
+  --bw-fill: rgba(255,255,255,0.06);
+  --bw-text-dark: rgba(255,255,255,0.92);
+  --bw-text: rgba(255,255,255,0.70);
+  --bw-text-light: rgba(255,255,255,0.55);
+  --bw-text-faint: rgba(255,255,255,0.34);
+  --bw-border: rgba(255,255,255,0.10);
+  --bw-border-strong: #2B3440;
+}
+}
+html[data-theme="dark"] {
+  --bw-primary: #6AC1BD;
+  --bw-primary-dark: #48A8A3;
+  --bw-on-primary: #0F1318;
+  --bw-accent: #D97E55;
+  --bw-money: #D97E55;
+  --bw-block-primary: #1E5754;
+  --bw-block-accent: #A84528;
+  --bw-tint-primary: #163B39;
+  --bw-tint-accent: #3D291F;
+  --bw-field-brand: #7ED1CD;
+  --bw-success: #21B183;
+  --bw-warning: #FFA24D;
+  --bw-danger: #E8575C;
+  --bw-danger-dark: #C64449;
+  --bw-on-danger: #0F1318;
+  --bw-success-deep: #7FE0BD;
+  --bw-warning-deep: #FFC38A;
+  --bw-danger-deep: #FF9A9E;
+  --bw-bg: #0F1318;
+  --bw-bg-secondary: #151A20;
+  --bw-surface: #1B222B;
+  --bw-fill: rgba(255,255,255,0.06);
+  --bw-text-dark: rgba(255,255,255,0.92);
+  --bw-text: rgba(255,255,255,0.70);
+  --bw-text-light: rgba(255,255,255,0.55);
+  --bw-text-faint: rgba(255,255,255,0.34);
+  --bw-border: rgba(255,255,255,0.10);
+  --bw-border-strong: #2B3440;
+}
+html[data-theme="light"] {
+  --bw-primary: #1E5754;
+  --bw-primary-dark: #16413F;
+  --bw-on-primary: #FFFFFF;
+  --bw-accent: #B8502F;
+  --bw-money: #B8502F;
+  --bw-block-primary: #1E5754;
+  --bw-block-accent: #B8502F;
+  --bw-tint-primary: #E3EFEF;
+  --bw-tint-accent: #F8EAE2;
+  --bw-field-brand: #7ED1CD;
+  --bw-success: #00B578;
+  --bw-warning: #FF8F1F;
+  --bw-danger: #D92B3C;
+  --bw-danger-dark: #B02330;
+  --bw-on-danger: #FFFFFF;
+  --bw-success-deep: #006B4A;
+  --bw-warning-deep: #995400;
+  --bw-danger-deep: #B02330;
+  --bw-bg: #F3F4F6;
+  --bw-bg-secondary: #EAECEF;
+  --bw-surface: #FFFFFF;
+  --bw-fill: rgba(0,0,0,0.045);
+  --bw-text-dark: rgba(0,0,0,0.90);
+  --bw-text: rgba(0,0,0,0.65);
+  --bw-text-light: rgba(0,0,0,0.55);
+  --bw-text-faint: rgba(0,0,0,0.30);
+  --bw-border: rgba(0,0,0,0.08);
+  --bw-border-strong: #E5E6EB;
+}
+* { box-sizing: border-box; }
+:root { --r-xs: 4px; --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-xl: 20px; --r-panel: 28px; }
+:root {
+  --font-sans: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-num: 'DIN Alternate', Bahnschrift, 'Roboto Condensed', 'Helvetica Neue', var(--font-sans);
+  --font-serif: 'Songti SC', 'Noto Serif SC', STSong, SimSun, serif;
+  --font-mono: 'Cascadia Code', 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+  --ring: var(--bw-primary);
+}
+html, body { margin: 0; }
+body {
+  background: var(--bw-bg);
+  color: var(--bw-text);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--bw-tint-primary); color: var(--bw-text-dark); }
+.shell { display: grid; grid-template-columns: 240px minmax(0, 1fr); min-height: 100vh; }
+.sidebar { background: var(--bw-surface); border-right: 1px solid var(--bw-border); display: flex; flex-direction: column; }
+.brandRow { display: flex; align-items: center; gap: 10px; height: 64px; padding: 0 16px; border-bottom: 1px solid var(--bw-border); }
+.brandName { display: flex; flex-direction: column; line-height: 1.15; }
+.brandCn { font-family: var(--font-serif); font-size: 18px; font-weight: 700; letter-spacing: .06em; color: var(--bw-text-dark); }
+.brandEn { font-size: 10px; letter-spacing: .22em; color: var(--bw-text-light); text-transform: uppercase; }
+.nav { padding: 12px 8px; display: flex; flex-direction: column; gap: 2px; }
+.navLabel { font-size: 12px; color: var(--bw-text-faint); padding: 8px 8px 4px; letter-spacing: .04em; }
+.navItem { display: flex; align-items: center; gap: 10px; height: 40px; padding: 0 12px; color: var(--bw-text); text-decoration: none; }
+.navItem:hover { background: var(--bw-fill); }
+.navItem[aria-current="page"] { background: var(--bw-tint-primary); color: var(--bw-primary); font-weight: 600; }
+.navItem .dot { width: 6px; height: 6px; background: currentColor; opacity: .5; }
+.sidebarFoot { margin-top: auto; padding: 12px 16px; border-top: 1px solid var(--bw-border); display: flex; align-items: center; justify-content: space-between; color: var(--bw-text-light); font-size: 12px; }
+.main { min-width: 0; display: flex; flex-direction: column; }
+.topbar { height: 56px; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; background: var(--bw-surface); border-bottom: 1px solid var(--bw-border); }
+.crumb { color: var(--bw-text-light); font-size: 13px; }
+.crumb b { color: var(--bw-text-dark); font-weight: 600; }
+.actions { display: flex; align-items: center; gap: 8px; }
+.btn { height: 32px; padding: 0 12px; border: 1px solid transparent; background: transparent; color: var(--bw-text); font: inherit; font-size: 13px; cursor: pointer; }
+.btn:hover { background: var(--bw-fill); }
+.btn.ghost { border-color: var(--bw-border-strong); }
+.btn.primary { background: var(--bw-primary); color: var(--bw-on-primary); font-weight: 600; }
+.btn.primary:hover { background: var(--bw-primary-dark); }
+.btn:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
+.btn:disabled { background: var(--bw-fill); color: var(--bw-text-faint); cursor: not-allowed; }
+.paper { padding: 32px 24px 96px; max-width: 1180px; width: 100%; margin: 0 auto; }
+.kicker { font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: var(--bw-primary); }
+h1 { font-size: 32px; line-height: 1.25; font-weight: 700; letter-spacing: -.01em; color: var(--bw-text-dark); margin: 8px 0 12px; }
+.lead { font-size: 15px; color: var(--bw-text-light); max-width: 72ch; margin: 0 0 32px; }
+.lead b { color: var(--bw-text-dark); font-weight: 600; }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1px; background: var(--bw-border); border: 1px solid var(--bw-border); margin-bottom: 40px; }
+.stat { background: var(--bw-surface); padding: 16px; }
+.stat.primary { background: var(--bw-primary); color: var(--bw-on-primary); }
+.stat.accent { background: var(--bw-block-accent); color: var(--bw-on-primary); }
+.stat .k { font-size: 12px; opacity: .72; }
+.stat .v { font-family: var(--font-num); font-size: 32px; font-weight: 600; line-height: 1.15; font-variant-numeric: tabular-nums; }
+.stat .n { font-size: 12px; opacity: .72; }
+section { margin: 0 0 40px; }
+h2 { font-size: 16px; font-weight: 600; color: var(--bw-text-dark); margin: 0 0 4px; }
+.hint { font-size: 13px; color: var(--bw-text-light); margin: 0 0 16px; }
+.hairline { height: 1px; background: var(--bw-border); margin: 32px 0; }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.swatch .chip { border-radius: var(--r-sm); border: 1px solid var(--bw-border); padding: 12px; min-height: 76px; display: flex; flex-direction: column; justify-content: space-between; gap: 12px; }
+.swatch .chip-label { font-size: 13px; }
+.swatch .chip-value { font-family: var(--font-mono); font-size: 12px; opacity: .7; }
+.on-fill { color: var(--bw-on-primary); }
+.fieldBrand { background: var(--bw-field-brand); color: rgba(0,0,0,.9); padding: 20px; display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+.typeRows { border-top: 1px solid var(--bw-border); }
+.typeRow { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 16px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid var(--bw-border); }
+.typeRow .meta { font-size: 12px; color: var(--bw-text-faint); font-family: var(--font-mono); }
+.thread { border-radius: var(--r-md); border: 1px solid var(--bw-border); background: var(--bw-surface); }
+.turn { display: flex; gap: 16px; padding: 16px 20px; border-bottom: 1px solid var(--bw-border); }
+.turn:last-child { border-bottom: 0; }
+.avatar { width: 28px; height: 28px; border-radius: 50% !important; corner-shape: round !important; flex: none; display: grid; place-items: center; font-size: 12px; font-weight: 600; }
+.you .avatar { background: var(--bw-tint-primary); color: var(--bw-primary); }
+.ai .avatar { background: var(--bw-text-dark); color: var(--bw-surface); }
+.turnBody { min-width: 0; flex: 1; }
+.who { font-size: 12px; color: var(--bw-text-light); margin-bottom: 4px; }
+.said { color: var(--bw-text); }
+.bubble { background: var(--bw-tint-primary); color: var(--bw-text-dark); padding: 10px 16px; display: inline-block; max-width: 72ch; }
+pre { border-radius: var(--r-sm); margin: 12px 0 0; padding: 12px 16px; background: var(--bw-bg-secondary); border: 1px solid var(--bw-border); font-family: var(--font-mono); font-size: 11px; line-height: 1.7; overflow: auto; color: var(--bw-text); }
+code { font-family: var(--font-mono); font-size: .92em; background: var(--bw-fill); padding: 0 4px; color: var(--bw-text-dark); }
+.tool { border-radius: var(--r-sm); border: 1px solid var(--bw-border); padding: 12px 16px; margin-top: 12px; background: var(--bw-bg); }
+.toolHead { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--bw-text-dark); font-weight: 500; }
+.badge { height: 20px; display: inline-flex; align-items: center; padding: 0 6px; font-size: 12px; border: 1px solid currentColor; }
+.badge.ok { color: var(--bw-success-deep); }
+.badge.warn { color: var(--bw-warning-deep); }
+.badge.err { color: var(--bw-danger-deep); }
+.diff { font-family: var(--font-mono); font-size: 11px; line-height: 1.7; }
+.diff .add { background: var(--bw-tint-primary); color: var(--bw-text-dark); display: block; }
+.diff .del { background: var(--bw-tint-accent); color: var(--bw-text-dark); display: block; }
+.composer { margin-top: 16px; background: var(--bw-surface); border: 1px solid var(--bw-border-strong); }
+.composer:focus-within { outline: 2px solid var(--ring); outline-offset: 2px; }
+.composer textarea { display: block; width: 100%; min-height: 88px; padding: 12px 16px; border: 0; outline: none; resize: vertical; background: transparent; color: var(--bw-text-dark); font: 14px/1.6 var(--font-sans); }
+.composerBar { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; border-top: 1px solid var(--bw-border); }
+.chips { display: flex; gap: 6px; }
+.toggle { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+.seg { display: inline-flex; border: 1px solid var(--bw-border-strong); }
+.seg button { height: 32px; padding: 0 12px; border: 0; background: transparent; font: inherit; font-size: 13px; color: var(--bw-text); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--bw-tint-primary); color: var(--bw-primary); font-weight: 600; }
+.menu { width: 260px; border-radius: var(--r-md); border: 1px solid var(--bw-border); background: var(--bw-surface); }
+.menuItem { display: flex; justify-content: space-between; gap: 16px; padding: 8px 12px; font-size: 13px; }
+.menuItem:hover { background: var(--bw-fill); }
+.menuItem b { color: var(--bw-text-dark); font-weight: 500; }
+kbd { font-family: var(--font-mono); font-size: 11px; color: var(--bw-text-light); }
+.foot { color: var(--bw-text-faint); font-size: 12px; }
+.wordmark { height: 30px; width: auto; display: block; color: var(--bw-text-dark); }
+.mark { display: inline-flex; align-items: center; justify-content: center; flex: none; overflow: hidden; background: var(--bw-primary); }
+.mark > svg { display: block; width: 100%; height: 100%; }
+@media (max-width: 900px) {
+  .shell { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brandRow">
+      
+<span class="mark" style="width:24px;height:24px">
+  <svg viewBox="0 0 512 512" aria-hidden="true"><g transform="translate(30.7 216.1) scale(1.54037)"> <path fill="#FFFFFF" d="M67.727 34.135C32.985 45.255 0 45.001 0 45.001L0 45.001L0 51.75C0 51.75 32.855 52.048 67.502 40.949L67.502 40.949C103.083 29.553 140.552 6.749 146.251 6.749L146.251 6.749C151.956 6.749 189.472 29.567 225.076 40.975L225.076 40.975C259.694 52.066 292.502 51.75 292.502 51.75L292.502 51.75L292.502 45.001C292.502 45.001 259.826 45.36 225.309 34.291L225.309 34.291C189.665 22.865 152.058 0 146.44 0L146.44 0C140.655 0 103.273 22.756 67.727 34.135"/> </g></svg>
+</span>
+      <span class="brandName"><span class="brandCn">芭梧</span><span class="brandEn">BYWOOD</span></span>
+    </div>
+    <nav class="nav">
+      <div class="navLabel">结构</div>
+      <a class="navItem" aria-current="page" href="#"><span class="dot"></span>会话</a>
+      <a class="navItem" href="#"><span class="dot"></span>工作区</a>
+      <a class="navItem" href="#"><span class="dot"></span>技能</a>
+      <div class="navLabel">今天</div>
+      <a class="navItem" href="#"><span class="dot"></span>设计系统换肤</a>
+      <a class="navItem" href="#"><span class="dot"></span>色板映射核对</a>
+      <a class="navItem" href="#"><span class="dot"></span>桌面外壳</a>
+    </nav>
+    <div class="sidebarFoot">v5.8.2 · 界面轨 <span>设置</span></div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <div class="crumb">工作区 / <b>设计系统换肤</b></div>
+      <div class="actions">
+        <button class="btn ghost">分享</button>
+        <button class="btn">历史</button>
+        <button class="btn primary">新会话</button>
+      </div>
+    </header>
+    <main class="paper">
+      <div class="toggle">
+        <span class="seg" role="group" aria-label="配色">
+          <button type="button" aria-pressed="true" data-set="light">浅色</button>
+          <button type="button" aria-pressed="false" data-set="dark">深色</button>
+          <button type="button" aria-pressed="false" data-set="system">跟随系统</button>
+        </span>
+        <span class="foot">BYWOOD 设计系统 v5.8.2 · 界面轨 · 保留默认圆角 + 发丝线 + 单色块</span>
+      </div>
+
+      <p class="kicker">Design system · screen track</p>
+      <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-bottom:16px">
+        
+<span class="mark" style="width:56px;height:56px">
+  <svg viewBox="0 0 512 512" aria-hidden="true"><g transform="translate(30.7 216.1) scale(1.54037)"> <path fill="#FFFFFF" d="M67.727 34.135C32.985 45.255 0 45.001 0 45.001L0 45.001L0 51.75C0 51.75 32.855 52.048 67.502 40.949L67.502 40.949C103.083 29.553 140.552 6.749 146.251 6.749L146.251 6.749C151.956 6.749 189.472 29.567 225.076 40.975L225.076 40.975C259.694 52.066 292.502 51.75 292.502 51.75L292.502 51.75L292.502 45.001C292.502 45.001 259.826 45.36 225.309 34.291L225.309 34.291C189.665 22.865 152.058 0 146.44 0L146.44 0C140.655 0 103.273 22.756 67.727 34.135"/> </g></svg>
+</span>
+        
+<svg viewBox="0 0 733.115 90.004" role="img" aria-label="BYWOOD" class="wordmark">
+  <path fill="currentColor" d="M622.377 25.873C617.639 28.847 613.981 32.916 611.403 38.073L611.403 38.073C608.821 43.237 607.53 48.975 607.53 55.288L607.53 55.288C607.53 61.906 608.759 67.841 611.221 73.092L611.221 73.092C613.679 78.343 617.261 82.459 621.967 85.43L621.967 85.43C626.672 88.404 632.272 89.895 638.77 89.895L638.77 89.895C645.327 89.895 650.971 88.404 655.708 85.43L655.708 85.43C660.444 82.459 664.04 78.343 666.498 73.092L666.498 73.092C668.959 67.841 670.188 61.906 670.188 55.288L670.188 55.288C670.188 48.975 668.897 43.237 666.315 38.073L666.315 38.073C663.738 32.916 660.064 28.847 655.297 25.873L655.297 25.873C650.53 22.899 645.021 21.408 638.77 21.408L638.77 21.408C632.578 21.408 627.112 22.899 622.377 25.873M630.072 74.182C627.614 72.331 625.716 69.782 624.381 66.535L624.381 66.535C623.043 63.288 622.377 59.567 622.377 55.379L622.377 55.379C622.377 51.371 623.043 47.79 624.381 44.633L624.381 44.633C625.716 41.477 627.614 38.986 630.072 37.164L630.072 37.164C632.53 35.342 635.429 34.433 638.77 34.433L638.77 34.433C642.166 34.433 645.113 35.342 647.602 37.164L647.602 37.164C650.09 38.986 651.988 41.477 653.293 44.633L653.293 44.633C654.599 47.79 655.254 51.371 655.254 55.379L655.254 55.379C655.254 59.567 654.599 63.288 653.293 66.535L653.293 66.535C651.988 69.782 650.09 72.331 647.602 74.182L647.602 74.182C645.113 76.037 642.166 76.96 638.77 76.96L638.77 76.96C635.429 76.96 632.53 76.037 630.072 74.182M557.625 25.873C552.891 28.847 549.232 32.916 546.65 38.073L546.65 38.073C544.068 43.237 542.781 48.975 542.781 55.288L542.781 55.288C542.781 61.906 544.01 67.841 546.468 73.092L546.468 73.092C548.927 78.343 552.508 82.459 557.214 85.43L557.214 85.43C561.92 88.404 567.519 89.895 574.018 89.895L574.018 89.895C580.574 89.895 586.221 88.404 590.956 85.43L590.956 85.43C595.694 82.459 599.29 78.343 601.748 73.092L601.748 73.092C604.206 67.841 605.436 61.906 605.436 55.288L605.436 55.288C605.436 48.975 604.145 43.237 601.566 38.073L601.566 38.073C598.985 32.916 595.312 28.847 590.549 25.873L590.549 25.873C585.781 22.899 580.269 21.408 574.018 21.408L574.018 21.408C567.825 21.408 562.359 22.899 557.625 25.873M565.319 74.182C562.861 72.331 560.963 69.782 559.629 66.535L559.629 66.535C558.294 63.288 557.625 59.567 557.625 55.379L557.625 55.379C557.625 51.371 558.294 47.79 559.629 44.633L559.629 44.633C560.963 41.477 562.861 38.986 565.319 37.164L565.319 37.164C567.782 35.342 570.679 34.433 574.018 34.433L574.018 34.433C577.417 34.433 580.363 35.342 582.85 37.164L582.85 37.164C585.342 38.986 587.235 41.477 588.545 44.633L588.545 44.633C589.846 47.79 590.501 51.371 590.501 55.379L590.501 55.379C590.501 59.567 589.846 63.288 588.545 66.535L588.545 66.535C587.235 69.782 585.342 72.331 582.85 74.182L582.85 74.182C580.363 76.037 577.417 76.96 574.018 76.96L574.018 76.96C570.679 76.96 567.782 76.037 565.319 74.182M675.104 22.684L675.104 88.709L698.512 88.709C709.258 88.709 717.713 85.916 723.873 80.331L723.873 80.331C730.036 74.746 733.115 66.215 733.115 54.742L733.115 54.742C733.115 47.942 731.781 42.142 729.108 37.345L729.108 37.345C726.439 32.55 722.6 28.91 717.589 26.419L717.589 26.419C712.581 23.928 706.647 22.684 699.785 22.684L699.785 22.684ZM689.312 34.797L698.327 34.797C704.763 34.797 709.698 36.648 713.126 40.353L713.126 40.353C716.555 44.055 718.272 48.942 718.272 55.015L718.272 55.015C718.272 62.662 716.526 68.16 713.036 71.499L713.036 71.499C709.545 74.836 704.217 76.506 697.054 76.506L697.054 76.506L689.312 76.506ZM413.042 22.684L397.927 48.731L397.745 48.731L383.265 22.684L366.236 22.684L390.457 62.753L390.457 88.709L404.665 88.709L404.665 62.844L429.163 22.684ZM317.876 22.684L317.876 88.709L346.745 88.709C353.483 88.709 358.995 87.179 363.276 84.11L363.276 84.11C367.556 81.044 369.694 76.265 369.694 69.768L369.694 69.768C369.694 65.698 368.54 62.222 366.236 59.339L366.236 59.339C363.926 56.455 360.134 54.68 354.85 54.011L354.85 54.011L354.85 53.738C359.04 52.829 362.166 51.142 364.232 48.684L364.232 48.684C366.294 46.226 367.326 43.327 367.326 39.985L367.326 39.985C367.326 36.465 366.342 33.4 364.366 30.79L364.366 30.79C362.392 28.179 359.647 26.175 356.127 24.779L356.127 24.779C352.603 23.382 348.625 22.684 344.195 22.684L344.195 22.684ZM331.992 34.888L341.465 34.888C345.167 34.888 347.93 35.434 349.752 36.528L349.752 36.528C351.571 37.618 352.483 39.2 352.483 41.262L352.483 41.262C352.483 43.51 351.723 45.284 350.206 46.59L350.206 46.59C348.686 47.895 346.439 48.549 343.465 48.549L343.465 48.549L331.992 48.549ZM331.992 60.204L343.741 60.204C347.505 60.204 350.341 60.902 352.254 62.299L352.254 62.299C354.166 63.695 355.123 65.851 355.123 68.764L355.123 68.764C355.123 71.436 354.181 73.397 352.301 74.64L352.301 74.64C350.418 75.884 347.959 76.506 344.923 76.506L344.923 76.506L331.992 76.506Z"/>
+  <path fill="var(--bw-field-brand)" d="M530.996 22.502L501.749 85.182L501.749 22.502L490.498 22.502L488.246 22.502L476.995 22.502L447.749 85.182L447.749 22.502L434.246 22.502L434.246 90L445.497 90L447.749 90L458.995 90L488.246 27.324L488.246 90L499.498 90L501.749 90L512.999 90L544.497 22.502Z"/>
+</svg>
+      </div>
+      <h1>芭梧 BYWOOD</h1>
+      <p class="lead">刊物化骨架 × 青赭双色。界面<strong>没有阴影、没有毛玻璃</strong>，结构与层级由<b>发丝线、明度差与单色块</b>承担；一屏只有一个饱和动作块。圆角保留 DeepSeek Harness 自带尺度（4/8/12/16/20/28），这是你对比两版后的选择，其余按 BYWOOD 执行。</p>
+
+      <div class="stats">
+        <div class="stat primary"><div class="k">本轮完成</div><div class="v">128</div><div class="n">项任务 · 结构性复利</div></div>
+        <div class="stat"><div class="k">会话</div><div class="v">12</div><div class="n">今天新增 3 条</div></div>
+        <div class="stat"><div class="k">模型调用</div><div class="v">1.4k</div><div class="n">deepseek-v4-flash</div></div>
+        <div class="stat accent"><div class="k">增量</div><div class="v">+18%</div><div class="n">赭石只表增长</div></div>
+      </div>
+
+      <section>
+        <h2>色板</h2>
+        <p class="hint">全部取自 <code>tokens/palette.json</code>；深色模式只翻转 token，组件不写第二套颜色。</p>
+        <div class="swatches">
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-primary)">
+      <span class="chip-label">主色 · 动作与结构</span>
+      <code class="chip-value">#1E5754</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-primary-dark)">
+      <span class="chip-label">按下态</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-accent)">
+      <span class="chip-label">赭石 · 价值与增长</span>
+      <code class="chip-value">#B8502F</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-block-accent)">
+      <span class="chip-label">强调块（每屏 ≤1）</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-field-brand)">
+      <span class="chip-label">品牌面色（做底不做字）</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-tint-primary)">
+      <span class="chip-label">主浅调 · 选中 / 消息块</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-tint-accent)">
+      <span class="chip-label">强调浅调 · 提示块</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-bg)">
+      <span class="chip-label">画布</span>
+      <code class="chip-value">#F3F4F6</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-surface)">
+      <span class="chip-label">表面</span>
+      <code class="chip-value">#FFFFFF</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-bg-secondary)">
+      <span class="chip-label">次级底 / 代码块</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-border-strong)">
+      <span class="chip-label">输入框描边</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-text-dark)">
+      <span class="chip-label">一级文字</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-text)">
+      <span class="chip-label">正文</span>
+      <code class="chip-value">rgba(0,0,0,0.65)</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-text-light)">
+      <span class="chip-label">说明</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip " style="background:var(--bw-text-faint)">
+      <span class="chip-label">最弱 / 禁用</span>
+      <code class="chip-value"></code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-success)">
+      <span class="chip-label">成功</span>
+      <code class="chip-value">#00B578</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-warning)">
+      <span class="chip-label">警告</span>
+      <code class="chip-value">#FF8F1F</code>
+    </div>
+  </div>
+  <div class="swatch">
+    <div class="chip on-fill" style="background:var(--bw-danger)">
+      <span class="chip-label">危险</span>
+      <code class="chip-value">#D92B3C</code>
+    </div>
+  </div></div>
+      </section>
+
+      <section>
+        <h2>品牌面色</h2>
+        <p class="hint">标志青做底不做字：块内只放墨字或主色字，每屏 ≤1 块。</p>
+        <div class="fieldBrand">
+          
+<span class="mark" style="width:44px;height:44px">
+  <svg viewBox="0 0 512 512" aria-hidden="true"><g transform="translate(30.7 216.1) scale(1.54037)"> <path fill="#FFFFFF" d="M67.727 34.135C32.985 45.255 0 45.001 0 45.001L0 45.001L0 51.75C0 51.75 32.855 52.048 67.502 40.949L67.502 40.949C103.083 29.553 140.552 6.749 146.251 6.749L146.251 6.749C151.956 6.749 189.472 29.567 225.076 40.975L225.076 40.975C259.694 52.066 292.502 51.75 292.502 51.75L292.502 51.75L292.502 45.001C292.502 45.001 259.826 45.36 225.309 34.291L225.309 34.291C189.665 22.865 152.058 0 146.44 0L146.44 0C140.655 0 103.273 22.756 67.727 34.135"/> </g></svg>
+</span>
+          <div>
+            <div style="font-family:var(--font-serif);font-size:20px;font-weight:700;letter-spacing:.06em">扶摇 ROC · 结构性复利</div>
+            <div style="font-size:12px;opacity:.72">四条弧带自下而上层叠成山脊：生长、层叠、由下而上。</div>
+          </div>
+        </div>
+      </section>
+
+      <div class="hairline"></div>
+
+      <section>
+        <h2>字体与数字</h2>
+        <p class="hint">界面无衬线、数字等宽对齐、代码专用等宽；12px 是正文与说明的下限。</p>
+        <div class="typeRows">
+          <div class="typeRow"><span class="meta">32 / 700</span><span style="font-size:32px;font-weight:700;letter-spacing:-.01em;color:var(--bw-text-dark)">页面标题</span></div>
+          <div class="typeRow"><span class="meta">16 / 600</span><span style="font-size:16px;font-weight:600;color:var(--bw-text-dark)">区块标题</span></div>
+          <div class="typeRow"><span class="meta">14 / 400</span><span style="font-size:14px">正文默认 65% 黑；重点用 90%。说明用 55%，最弱用 30%。</span></div>
+          <div class="typeRow"><span class="meta">13 / 500</span><span style="font-size:13px;font-weight:500;color:var(--bw-text-light)">表头 / 次级标签</span></div>
+          <div class="typeRow"><span class="meta">num</span><span style="font-family:var(--font-num);font-size:32px;font-weight:600;font-variant-numeric:tabular-nums">&yen;86,420.00 <span style="font-size:14px;color:var(--bw-accent)">+12.4%</span></span></div>
+          <div class="typeRow"><span class="meta">mono</span><span style="font-family:var(--font-mono);font-size:12px">ctx.theme.overrideTokens('@local/dsh-bywood', tokens)</span></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>会话与工具行</h2>
+        <p class="hint">列表一条一卡改为发丝线排行；用户消息用主浅调直角块，不另起一套颜色。</p>
+        <div class="thread">
+          <div class="turn you">
+            <div class="avatar">你</div>
+            <div class="turnBody">
+              <div class="who">你 · 12:04</div>
+              <div class="bubble">把整个界面换成芭梧的设计系统，连 logo 一起。</div>
+            </div>
+          </div>
+          <div class="turn ai">
+            <div class="avatar">芭</div>
+            <div class="turnBody">
+              <div class="who">芭梧 · 12:05</div>
+              <div class="said">按界面轨执行：138 个别名 token 叠在浅 / 深两套之上，全局直角，浮层改发丝线成形。<span class="badge ok">已完成</span></div>
+              <div class="tool">
+                <div class="toolHead">apply_theme <span class="badge ok">exit 0</span> <span class="foot">2.4s</span></div>
+                <div class="diff">
+                  <span class="del">- border-radius: 12px;</span>
+                  <span class="add" style="background:var(--bw-tint-primary)">+ border-radius: 0;</span>
+                  <span class="del">- backdrop-filter: blur(40px);</span>
+                  <span class="add" style="background:var(--bw-tint-primary)">+ background: var(--dsw-alias-bg-layer-2);</span>
+                </div>
+              </div>
+              <pre>[PALETTE] 54 个合法色值
+[RADIUS]  0 处非零圆角
+[SHADOW]  0 处投影
+[BLUR]    0 处毛玻璃
+✓ 全部通过（0 条提示）</pre>
+            </div>
+          </div>
+        </div>
+        <div class="composer">
+          <textarea placeholder="给芭梧发消息…"></textarea>
+          <div class="composerBar">
+            <div class="chips">
+              <button class="btn ghost">模型</button>
+              <button class="btn ghost">技能</button>
+              <button class="btn ghost">权限</button>
+            </div>
+            <button class="btn primary">发送</button>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>菜单与禁用态</h2>
+        <p class="hint">浮层只加 1px 描边，不加投影、不做毛玻璃；禁用态是填充 + 最弱文字，不整体降透明度。</p>
+        <div style="display:flex;gap:32px;flex-wrap:wrap;align-items:flex-start">
+          <div class="menu">
+            <div class="menuItem"><b>复制会话 ID</b><kbd>&#8984;C</kbd></div>
+            <div class="menuItem"><b>在新窗口打开</b><kbd>&#8984;&#8679;O</kbd></div>
+            <div class="menuItem" style="color:var(--bw-danger-deep)"><b style="color:inherit">归档会话</b><kbd>&#8984;&#9003;</kbd></div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <button class="btn primary" disabled>主按钮 · 禁用</button>
+            <button class="btn ghost" disabled>次按钮 · 禁用</button>
+            <span class="foot">禁用态同时给出原因说明，不只靠颜色。</span>
+          </div>
+        </div>
+      </section>
+
+      <p class="foot">样张由 bywood-theme/scripts/build-preview.mjs 生成 · 2026-11-16 · 色值与 tokens/palette.json 逐值一致</p>
+    </main>
+  </div>
+</div>
+<script>
+const segment = document.querySelector('.seg')
+segment.addEventListener('click', event => {
+  const button = event.target.closest('button[data-set]')
+  if (button === null) return
+  const choice = button.dataset.set
+  for (const item of segment.querySelectorAll('button')) item.setAttribute('aria-pressed', String(item === button))
+  if (choice === 'system') document.documentElement.removeAttribute('data-theme')
+  else document.documentElement.setAttribute('data-theme', choice)
+})
+</script>
+</body>
+</html>

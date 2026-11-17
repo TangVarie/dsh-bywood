@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "BYWOOD visual system",
+    "description": "Re-skins the Web GUI to the BYWOOD design system v5.8.2 (colour, type, square corners, hairline depth) and replaces the product mark, wordmark, title and favicon with BYWOOD's.",
+    "detail": "docs/DETAIL.md"
+  }
+}
